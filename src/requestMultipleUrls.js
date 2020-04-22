@@ -58,7 +58,7 @@ const requestMultipleUrls = (urls, timeout) => {
 
       //Create new promise to return array of data
       return new Promise((res) => {
-        res(promise.map((dataObject) => dataObject.data.data.items[0]));
+        res(promise.map((dataObject) => dataObject.data));
       });
     })
     .catch((err) => {
