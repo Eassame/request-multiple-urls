@@ -3,7 +3,7 @@ This is a package to handle multiple urls containing json data and return their 
 
 # Features
 - Checks urls are valid (unless the url is only a path)
-- Cancels request response time takes to longer than timeout value (default value is 1000 ms but this can be editted)
+- Cancels request response time takes to longer than timeout value (default value is 1000 ms but this can be edited)
 
 
 # Promises
@@ -20,8 +20,8 @@ const urls = [
   "url-json-3",
 ];
 
-
-requestMultipleUrls(urls)
+//Custom timeout of 2000ms (2 seconds)
+requestMultipleUrls(urls, 2000)
   .then((urlsContent) => {
   
     //Url data content is available here as 'urlsContent', e.g:
