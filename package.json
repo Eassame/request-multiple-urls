@@ -10,7 +10,7 @@
   "author": "Eassame Saied",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "is-url": "^1.2.4"
   },
   "devDependencies": {
